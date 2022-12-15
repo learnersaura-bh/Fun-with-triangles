@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>quiz</title>
+</head>
+<body>
+    <h1> Play this quiz about triangles and know your score</h1>
+    <form class="quiz-form">
+        <div class="container">
+            <p> How many sides do triangle have?</p>
+            <label><input type="radio" name="question1" value="2"> 2 </label>
+            <label><input type="radio" name="question1" value="3"> 3 </label>
+        </div>
+        <div class="container">
+            <p> If one angle of triangle is 90° , what type of triangle it is?</p>
+            <label><input type="radio" name="question2" value="Right Angle"> Right Angle </label>
+            <label><input type="radio" name="question2" value="Left Angle"> Left Angle </label>
+        </div>
+        <div class="container">
+            <p> If two sides of triangle are equal then the triangle is called ____?</p>
+            <label><input type="radio" name="question3" value="Bilateral"> Bilateral </label>
+            <label><input type="radio" name="question3" value="Equilateral"> Equilateral </label>
+        </div>
+    </form>
+    <button id="submit-button"> Submit </button>
+    <p id="output"></p>
+</body>
+<script src="/quiz.js" type="text/javascript"></script>
+</html>
