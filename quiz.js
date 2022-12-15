@@ -1,5 +1,5 @@
 
-const quizForm = document.querySelectorAll(".quiz-form");
+const quizForm = document.querySelector(".quiz-form");
 const submitAnswerButton = document.querySelector("#submit-button");
 const output = document.querySelector("#output")
 
@@ -11,11 +11,12 @@ function calculateScore(){
     let index = 0;
     const formResults = new FormData(quizForm);
     for(let value of formResults.values()){
-    if(value === correctAnswers[index]){
+    if(value === rightAnswers[index]){
         score = score+1;
+       
     }
     
-    index = index+1;
+    index = index + 1;
     }
     output.innerText = " your score is " + score;
 
