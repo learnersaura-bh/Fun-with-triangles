@@ -1,0 +1,14 @@
+body{
+    background-color: rgba(47, 8, 83, 0.582);
+}
+
+h1{
+    text-align: center;
+}
+
+.container{
+   
+    display: block;
+    text-align: center;
+}
+
