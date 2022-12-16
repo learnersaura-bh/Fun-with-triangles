@@ -5,8 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>quiz</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
+    <nav class="navigation container">
+        <div class="nav-brand">Fun With Triangle</div>
+        <ul class="list-non-bullet nav-pills" >
+            <li class="list-item-inline">
+                <a class="link " href="/index.html">home
+                </a>
+            </li>
+            
+            <li class="list-item-inline">
+                <a class="link link-active" href="/quiz.html"> Play Quiz</a>
+            </li>
+           
+            <li class="list-item-inline">
+                <a class="link" href="/Hypotenuse.html">about</a>
+            </li>
+        </ul>
+    </nav>
     <h1> Play this quiz about triangles and know your score</h1>
     <form class="quiz-form">
         <div class="container">
@@ -25,8 +43,12 @@
             <label><input type="radio" name="question3" value="Equilateral"> Equilateral </label>
         </div>
     </form>
-    <button id="submit-button"> Submit </button>
-    <p id="output"></p>
+    <br>
+    <div class="container">
+    <button style="border-radius: 0.3rem;" id="submit-button"> Submit </button>
+    <p style="font-size: larger;" id="output"></p>
+</div>
+   
 </body>
 <script src="/quiz.js" type="text/javascript"></script>
 </html>
