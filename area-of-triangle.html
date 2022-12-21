@@ -4,15 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Geometry</title>
-    <link rel="stylesheet" href="/style.css">
+    <title>Area of Triangle</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav class="navigation container">
         <div class="nav-brand">Fun With Triangle</div>
         <ul class="list-non-bullet nav-pills" >
             <li class="list-item-inline">
-                <a class="link link-active" href="/index.html">home
+                <a class="link " href="/index.html">home
                 </a>
             </li>
             
@@ -24,24 +24,22 @@
                 <a class="link" href="/hypotenuse.html">Hypotenuse</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="/area-of-triangle.html">Area of triangle</a>
+                <a class="link link-active" href="/area-of-triangle.html">Area of triangle</a>
             </li>
         </ul>
     </nav>
-    <h1>Is this a triangle?</h1>
+    <h1> Let's calculate Area of Triangle</h1>
+  
     <hr>
-<div class="container">
-    <p>Enter three angles and let's see if these angle make triangle or not</p>
-    <label for="angle-one">Enter first angle</label><br>
-    <input type="number" id="angle-one"><br>
-    <label for="angle-two">Enter second angle</label><br>
-    <input type="number" id="angle-two"><br>
-    <label for="angle-three">Enter third angle</label><br>
-    <input type="number" id="angle-three"><br><br>
-    <button style="border-radius: 0.3rem;" id="check-btn"> Check </button>
-<p id="show-message"></p>
-
-</div>
+    <div class="container">
+        <p>Formula Used: 1/2 * base * height</p>
+        <label for="base">Enter Base Of Triangle</label><br>
+        <input type="number" id="base"><br>
+        <label for="height">Enter Height Of Triangle</label><br>
+        <input type="number" id="height"><br><br>
+        <button id="check-button"> Calculate Area</button>
+        <p id="show-area"></p>
+    </div>
+<script src="/area-of-triangle.js"></script>
 </body>
-<script src="/isthis.js"></script>
 </html>

@@ -12,7 +12,7 @@ function calculateHypotenuse(){
 showOutput.innerText = "The Hypotenuse is : " + Hypotenuse;
 }
 else{
-    showOutput.innerText = "The values should be bigger than one"
+    showOutput.innerText = "Enter All fields. The values should be bigger than zero"
 }
 }
 
